@@ -1,0 +1,13 @@
+# The use of Neural Networks for traffic volume forecasting
+
+## Abstract
+
+A study done by Statistics South Africa showed that the most common transport mode for people going to work was private car (34.1%), then taxis (22.9%) (Statistics South Africa, 2018). This shows that a large majority of people depend on an efficient road transportation system to move from place to place. A good understanding of the movement of people will not only allow for better management of limited resources for the improvement of roads but could potentially allow for a better designed road system. Thus, being able to forecast traffic volumes accurately will make designing road transportation systems more efficient.
+
+The availability of vehicle detection devices at strategic locations around the Western Cape Province, in South Africa, makes the collection of reliable and accurate traffic volume data possible. For this research project, an attempt was be made to improve traffic volume forecasting. A variation of Machine Learning algorithm known as Neural Networks(NN) were used to forecast traffic volume values.
+
+Neural networks are a more complex variation of machine learning algorithms. They go through large data in order to find complex patterns within the dataset (Ruder, 2016). Within the neural network framework, Recurrent Neural Networks(RNN) in particular have been used for traffic volume forecasting because of their ability to process data that is time dependant. Time series regression is a method used to predict future values based on time dependent data (MathWorks, 2020). Time series regression allows a model to notice trends, cycles, seasonal variations and irregular components within a dataset. Based on historical data learning outcomes from historical traffic data, time series prediction models can be used to predict traffic volumes adequately (Karami & Kashef, 2020). For this research Long Short Term Memory(LSTM) and Gated Recurrent Unit(GRU) algorithms were used to model traffic volume data.
+
+For this research project, data collected by the aforementioned vehicle detection devices were used to train the models. The data had to be formatted and sorted to suit the format needed for it to be used by the model. In order to get the best model design an iterative process was adopted to find the parameters within the models that will improve the overall accuracy of the models. These parameters were optimized to maximise the forecasting ability of the models.
+
+After analysis, the results show that both models were able to forecast traffic volume counts accurately. Of the two models, the GRU model was the more accurate model. This shows that Neural Networks models can be used to as a method to forecast traffic volume data.
